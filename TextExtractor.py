@@ -45,4 +45,4 @@ def process_pdf_in_chunks(pdf_path, chunk_size, dpi, output_file):
         print(f"An error occurred: {e}")
 
 # Convert and process PDF in chunks
-process_pdf_in_chunks('Images/DanKiralyiKonyvtar.pdf', 5, 500, 'DanKiralyiKonyvtar-OUT.txt')
+process_pdf_in_chunks('Path-to-PDF-file', (Add chunks to process), (Add DPI), 'Name-of-yor-txt-file')
